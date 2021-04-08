@@ -1,4 +1,4 @@
-# Tailwind Just In Time (JIT) Compiler Demo
+# Tailwind Just-in-Time (JIT) Compiler Demo
 
 ## How to feel the pain of not using JIT
 1. Run `npm run build` to build the `style.css` file from the bloated `tailwind.config.js` file.
