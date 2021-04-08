@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-jit-demo",
+  "version": "1.0.0",
+  "description": "This is a Tailwind JIT demo repo created by Shadow Smith.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd src && live-server",
+    "build": "postcss tailwind.css -o ./src/css/styles.css --verbose && ls -S -lh ./src/css/styles.css | awk '{print \"Size: \" $5}'"
+  },
+  "keywords": ["Tailwind", "Tailwind JIT"],
+  "author": "Shadow Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
